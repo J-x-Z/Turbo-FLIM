@@ -1,0 +1,18 @@
+[package]
+name = "flim_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.15"
+rand = "0.8"
+rand_distr = "0.4"
+nalgebra = "0.32"
+wgpu = "0.19"
+pollster = "0.3"
+bytemuck = { version = "1.14", features = ["derive"] }
+rayon = "1.7"
+tract-onnx = "0.21.1"
+linfa = "0.6"
+linfa-clustering = "0.6"
+linfa-nn = "0.6"
