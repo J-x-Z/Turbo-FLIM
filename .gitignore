@@ -1,0 +1,22 @@
+/target
+
+# Unpublished paper materials - DO NOT COMMIT
+submission/
+submission_ieee/
+Graphical_Abstract.png
+*.tex
+*.pdf
+
+# Data files
+*.csv
+training_data.csv
+validation_data.csv
+real_data/
+
+# Generated abstracts
+create_*abstract*.py
+
+# Personal notes
+项目技术全解圣经.md
+Response_to_Experts_Checklist.md
+TurboFLIM_GitHub_Package/
