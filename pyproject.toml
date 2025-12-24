@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyturboflim"
+version = "1.0.0"
+description = "Fast physics-guided fluorescence lifetime analysis using Phasor-Fusion neural networks"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Jiaxi Zhang", email = "z1529105815@outlook.com"}
+]
+keywords = [
+    "FLIM",
+    "fluorescence",
+    "lifetime imaging",
+    "microscopy",
+    "phasor analysis",
+    "deep learning",
+    "physics-guided"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "scikit-learn>=1.0.0",
+    "matplotlib>=3.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
+sdt = [
+    "sdtfile>=2023.0.0",
+]
+onnx = [
+    "onnx>=1.14.0",
+    "skl2onnx>=1.15.0",
+    "onnxruntime>=1.15.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/J-x-Z/Turbo-FLIM"
+Documentation = "https://github.com/J-x-Z/Turbo-FLIM#readme"
+Repository = "https://github.com/J-x-Z/Turbo-FLIM"
+Issues = "https://github.com/J-x-Z/Turbo-FLIM/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pyturboflim*"]
