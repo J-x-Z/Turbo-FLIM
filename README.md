@@ -1,5 +1,6 @@
 # Turbo-FLIM: Physics-Guided Deep Learning for Fluorescence Lifetime Analysis
 
+[![CI](https://github.com/J-x-Z/Turbo-FLIM/actions/workflows/ci.yml/badge.svg)](https://github.com/J-x-Z/Turbo-FLIM/actions/workflows/ci.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache-2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Rust](https://img.shields.io/badge/Core-Rust-orange.svg)](https://www.rust-lang.org/)
 [![Python](https://img.shields.io/badge/API-Python-blue.svg)](https://python.org/)
