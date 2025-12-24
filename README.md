@@ -1,6 +1,6 @@
 # Turbo-FLIM: Physics-Guided Deep Learning for Fluorescence Lifetime Analysis
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache-2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Rust](https://img.shields.io/badge/Core-Rust-orange.svg)](https://www.rust-lang.org/)
 [![Python](https://img.shields.io/badge/API-Python-blue.svg)](https://python.org/)
 [![ONNX](https://img.shields.io/badge/Deploy-ONNX-purple.svg)](https://onnx.ai/)
@@ -17,7 +17,7 @@
 | **Speed** | 5.5× faster than LMA | Enables real-time preview |
 | **Phasor Embedding Gain** | +1.6% R² vs decay-only | Validates physics-guided design |
 | **Real Data Error** | 3.7% on Fluorescein | Sim-to-Real transfer verified |
-| **Tool Availability** | Open-source, MIT licensed | Python API + Rust core + ONNX export |
+| **Tool Availability** | Open-source, Apache-2.0 licensed | Python API + Rust core + ONNX export |
 
 ---
 
@@ -188,4 +188,4 @@ python3 validate_real_data.py # Test on Zenodo data
 
 ## License
 
-MIT License - Free for academic and commercial use.
+Apache License 2.0 - Free for academic and commercial use.
