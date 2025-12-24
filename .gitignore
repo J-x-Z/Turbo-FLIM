@@ -20,6 +20,3 @@ create_*abstract*.py
 项目技术全解圣经.md
 Response_to_Experts_Checklist.md
 TurboFLIM_GitHub_Package/
-__pycache__/
-*.pyc
-pyturboflim.egg-info/
